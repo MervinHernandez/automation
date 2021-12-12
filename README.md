@@ -54,6 +54,20 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 1. Focus in Xfinity window
 2. Adjust volume control
 
+## Chrome - Start Things
+`inc/start_things/chrome_all.ahk`
+* Start all needed Chrome profiles
+`inc/start_things/chrome_all_move.ahk`
+* Move chrome windows to respective Windows Task View Desktop Locations
+`inc/start_things/chrome_rtc.ahk`
+* Start a window of my `Chrome > rtCamp` profile
+`inc/start_things/chrome_wing.ahk`
+* Start a window of my `Chrome > WingManWP` profile
+`inc/start_things/chrome_app_youtube.ahk`
+* Start the Google Chrome App `YouTube`
+`inc/start_things/chrome_app_xfinity.ahk`
+* Start the Google Chrome App `Xfinity`
+
 # 📜 iOS Shortcuts
 ## Start the Washer
 1. Ask how long the load will run for
