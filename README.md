@@ -22,6 +22,13 @@ To start my day.
 3. Open Chrome profiles + position chrome windows in various Windows Desktops
 4. Open vMix + position vMix on second monitor
 
+## Workflow - Accounting - Save Receipt
+`workflows/accounting_save_receipt.ahk`
+1. Ask for the vendor
+2. Ask for the date of the receipt
+3. Ask for the amount of the receipt
+4. Save the file name to the clipboard, for use when saving the PDF receipt in view
+
 ## [WIP] Select "Area of Life"
 `inc/helpers/select_gtd_area.ahk` 
 1. Create nested dropdown list window
