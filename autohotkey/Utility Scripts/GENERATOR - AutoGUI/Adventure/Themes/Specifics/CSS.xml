@@ -1,0 +1,34 @@
+﻿<scheme const="CSS">
+    <theme name="Default">
+        <style name="Default" v="0" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Tag" v="1" fc="0x007090" bc="" b="1" i="0" u="" />
+        <style name="Class" v="2" fc="0x0070A0" bc="" b="0" i="0" u="" />
+        <style name="Pseudoclass" v="3" fc="0x0070A5" bc="" b="0" i="1" u="" />
+        <style name="Unknown_Pseudoclass" v="4" fc="0x0070A8" bc="" b="0" i="0" u="" />
+        <style name="Operator" v="5" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Identifier" v="6" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Unknown_Identifier" v="7" fc="0x767676" bc="" b="0" i="0" u="" />
+        <style name="Value" v="8" fc="0x000000" bc="" b="0" i="0" u="0" />
+        <style name="Comment" v="9" fc="0x767676" bc="" b="0" i="0" u="" />
+        <style name="ID" v="10" fc="0x1F609F" bc="" b="0" i="0" u="" />
+        <style name="Important" v="11" fc="0x9F1F6F" bc="" b="0" i="0" u="" />
+        <style name="Directive" v="12" fc="0x0000CF" bc="" b="0" i="0" u="" />
+        <style name="DoubleString" v="13" fc="0x183691" bc="" b="0" i="0" u="" />
+        <style name="SingleString" v="14" fc="0x183691" bc="" b="0" i="0" u="" />
+        <style name="Identifier2" v="15" fc="0xF16400" bc="" b="0" i="0" u="" />
+        <style name="Attribute" v="16" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Identifier3" v="17" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Pseudoelement" v="18" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Extended_Identifier" v="19" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Extended_Pseudoclass" v="20" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Extended_Pseudoelement" v="21" fc="0x000000" bc="" b="0" i="0" u="" />
+        <style name="Media" v="22" fc="0x008000" bc="0xF0F0F0" b="0" i="0" u="" />
+        <style name="Variable" v="23" fc="0x000000" bc="" b="0" i="0" u="" />
+    </theme>
+
+    <keywords>
+        <language id="CSS">
+            <group id="0" name="" keywords="" />
+        </language>
+    </keywords>
+</scheme>
