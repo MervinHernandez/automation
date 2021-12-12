@@ -26,6 +26,11 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## Window - View Window on All Desktops
+`inc/helpers/do_screen2_allmon.ahk`
+`inc/helpers/do_screen3_allmon.ahk`
+1. Make window presently in focus visible on all "task view" desktops.
+
 ## Chrome - Control Xfinity Screen
 `inc/helpers/mute_xfinity.ahk`
 `inc/helpers/mute_xfinity_hi.ahk`
