@@ -53,6 +53,12 @@ To start my day.
 `inc/helpers/outlook_app_save_wingman.ahk`
 * Set appointment to be saved in the "WingMan WP" calendar
 
+# [WIP] vMix
+`inc/start_things/vmix.ahk`
+1. Open vMix
+2. Wait for vMix to initiate
+3. Move vMix to second monitor
+
 ## Window - View Window on All Desktops
 `inc/helpers/do_screen2_allmon.ahk`
 `inc/helpers/do_screen3_allmon.ahk`
