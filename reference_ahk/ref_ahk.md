@@ -1,9 +1,11 @@
 # AutoHotkey - Quick Reference
 
+# Demo Files (available in this folder)
 ## Progress Bar
 `ref_ahk/progress_bar.ahk`
 Display progress bar on screen.
 
+# AHK Reference
 ## File Locations
 `A_Script` = the file path location for this script
 
