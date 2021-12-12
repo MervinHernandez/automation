@@ -3,6 +3,20 @@ Repository where I write down all the automations, scripts, shortcuts, and other
 
 Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 
+## IFTT
+Webhook Events via Maker Key `dqAVO2Ni3N6WTTMcsp6A_M`
+
+| Event Name | Description | 
+| ---      |  ------  |
+| KASA Tango | Merv iPhone > Kasa App > Toggles the "Tango" smart plug | 
+| KASA Uniform | Merv iPhone > Kasa App > Toggles the "Uniform" smart plug | 
+| KASA Zulu | Merv iPhone > Kasa App > Toggles the "Zulu" smart plug | 
+
+> Example of a full URL for a script trigger is
+> 
+> `https://maker.ifttt.com/trigger/kasa_uniform/with/key/dqAVO2Ni3N6WTTMcsp6A_M`
+
+
 # Web Dev
 ## TEST Gravity Form
 `web_dev/gravity_form_test.ahk`
