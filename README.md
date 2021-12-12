@@ -31,6 +31,10 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 `inc/helpers/do_screen3_allmon.ahk`
 1. Make window presently in focus visible on all "task view" desktops.
 
+## Window - Hide from Alt-Tab
+`inc/helpers/window_hide_alttab.ahk`
+1. Hide window presently in focus from appearing in Alt-Tab menu.
+
 ## Chrome - Control Xfinity Screen
 `inc/helpers/mute_xfinity.ahk`
 `inc/helpers/mute_xfinity_hi.ahk`
