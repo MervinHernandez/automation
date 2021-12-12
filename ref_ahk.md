@@ -1,5 +1,9 @@
 # AutoHotkey - Quick Reference
 
+## Progress Bar
+`ref_ahk/progress_bar.ahk`
+Display progress bar on screen.
+
 ## File Locations
 `A_Script` = the file path location for this script
 
