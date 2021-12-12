@@ -59,6 +59,11 @@ To start my day.
 2. Wait for vMix to initiate
 3. Move vMix to second monitor
 
+## [WIP] Windows - Manipulate Task Views
+`inc/start_things/win_desktops_close.ahk`
+`inc/start_things/win_desktops_open.ahk`
+1. Open/Close "ALL" desktop task views
+
 ## Window - View Window on All Desktops
 `inc/helpers/do_screen2_allmon.ahk`
 `inc/helpers/do_screen3_allmon.ahk`
