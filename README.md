@@ -33,6 +33,14 @@ To start my day.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## Outlook - Start
+`inc/start_things/outlook.ahk`
+1. Open Outlook
+2. Open Calendar Window
+3. Position these windows
+4. Open other calendars
+5. Focus on `MASTER` calendar
+
 ## Outlook - Manipulate Appointment Saving
 `inc/helpers/outlook_app_remind0.ahk`
 * Set appointment reminder to 0 minutes
