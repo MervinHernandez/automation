@@ -47,6 +47,10 @@ To start my day.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## [WIP] Outlook - Export Calendar to CSV
+`workflows/outlook_export_calendar.ahk`
+1. Navigate thru all the menu options to spit out a CSV of my calendar.
+
 ## [WIP] Outlook - Appointment - Flyout Menu
 `workflows/outlook_appt_flyout.ahk`
 1. Generate a "sticky" flyout menu next to an appointment window
