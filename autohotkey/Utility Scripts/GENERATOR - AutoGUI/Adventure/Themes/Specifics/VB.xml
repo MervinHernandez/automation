@@ -1,0 +1,37 @@
+﻿<scheme const="B">
+    <theme name="Default">
+        <style name="Default" v="0" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Comment" v="1" fc="0x767676" bc="" b="0" i="1" />
+        <style name="Number" v="2" fc="0x880088" bc="" b="0" i="0" />
+        <style name="Keyword" v="3" fc="0x0000DD" bc="" b="0" i="0" />
+        <style name="String" v="4" fc="0x183691" bc="" b="0" i="0" />
+        <style name="Preprocessor" v="5" fc="0x0000CF" bc="" b="0" i="0" />
+        <style name="Operator" v="6" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Identifier" v="7" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Date" v="8" fc="0x000000" bc="" b="0" i="0" />
+        <style name="StringEOL" v="9" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Keyword2" v="10" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Keyword3" v="11" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Keyword4" v="12" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Constant" v="13" fc="0x000000" bc="" b="0" i="0" />
+        <style name="ASM" v="14" fc="0x000000" bc="" b="0" i="0" />
+        <style name="Label" v="15" fc="0x0000DD" bc="" b="0" i="0" />
+        <style name="Error" v="16" fc="0x000000" bc="" b="0" i="0" />
+        <style name="HexNumber" v="17" fc="0x880088" bc="" b="0" i="0" />
+        <style name="BinNumber" v="18" fc="0x880088" bc="" b="0" i="0" />
+        <style name="CommentBlock" v="19" fc="0x767676" bc="" b="0" i="0" />
+        <style name="DocLine" v="20" fc="0x000000" bc="" b="0" i="0" />
+        <style name="DocBlock" v="21" fc="0x000000" bc="" b="0" i="0" />
+        <style name="DocKeyword" v="22" fc="0x000000" bc="" b="0" i="0" />
+    </theme>
+
+    <keywords>
+        <language id="VB">
+            <group id="0" name="Keywords" keywords="addhandler addressof andalso alias and ansi as assembly auto boolean byref byte byval call case catch cbool cbyte cchar cdate cdec cdbl char cint class clng cobj const cshort csng cstr ctype date decimal declare default delegate dim do double each else elseif end enum erase error event exit false finally for friend function get gettype goto handles if implements imports in inherits integer interface is let lib like long loop me mod module mustinherit mustoverride mybase myclass namespace new next not nothing notinheritable notoverridable object on option optional or orelse overloads overridable overrides paramarray preserve private property protected public raiseevent readonly redim rem removehandler resume return select set shadows shared short single static step stop string structure sub synclock then throw to true try typeof unicode until variant when while with withevents writeonly xor" />
+        </language>
+
+        <language id="VBS">
+            <group id="0" name="Keywords" keywords="and begin case call continue do each else elseif end erase error event exit false for function get gosub goto if implement in load loop lset me mid new next not nothing on or property raiseevent rem resume return rset select set stop sub then to true unload until wend while with withevents attribute alias as boolean byref byte byval const compare currency date declare dim double enum explicit friend global integer let lib long module object option optional preserve private property public redim single static string type variant" />
+        </language>
+    </keywords>
+</scheme>
