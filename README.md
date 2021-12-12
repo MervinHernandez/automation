@@ -47,6 +47,11 @@ To start my day.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## [WIP] Outlook - Appointment - Flyout Menu
+`workflows/outlook_appt_flyout.ahk`
+1. Generate a "sticky" flyout menu next to an appointment window
+2. Offer up shortcuts to naming contentions, details to be added, etc.
+
 ## Outlook - Start
 `inc/start_things/outlook.ahk`
 1. Open Outlook
