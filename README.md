@@ -34,22 +34,18 @@ To start my day.
 4. Save the file name to the clipboard, for use when saving the PDF receipt in view
 
 ## [WIP] Select "Area of Life"
-`inc/helpers/select_gtd_area.ahk` 
+`autohotkey/helpers/select_gtd_area.ahk` 
 1. Create nested dropdown list window
 2. Populate these nested dropdown lists with GTD "Areas of Life" lists
 
 ## [WIP] FIND Latest Downloaded File
-`inc/helpers/latest_file.ahk`
+`autohotkey/helpers/latest_file.ahk`
 1. Get path for latest file in Downloads folder (C:\Users\mervi\Downloads)
 
 ## [WIP] Startup Sequence
 1. Start Outlook + position on screens
 2. Start vMix + position on screens
 3. Start Chrome + position on screens
-
-## [WIP] Outlook - New Appointment Shortcuts
-* Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
-* This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
 ## [WIP] Outlook - Export Calendar to CSV
 `workflows/outlook_export_calendar.ahk`
@@ -61,7 +57,7 @@ To start my day.
 2. Offer up shortcuts to naming contentions, details to be added, etc.
 
 ## Outlook - Start
-`inc/start_things/outlook.ahk`
+`autohotkey/start_things/outlook.ahk`
 1. Open Outlook
 2. Open Calendar Window
 3. Position these windows
@@ -69,56 +65,56 @@ To start my day.
 5. Focus on `MASTER` calendar
 
 ## Outlook - Manipulate Appointment Saving
-`inc/helpers/outlook_app_remind0.ahk`
+`autohotkey/helpers/outlook_app_remind0.ahk`
 * Set appointment reminder to 0 minutes
-`inc/helpers/outlook_app_remind5.ahk`
+`autohotkey/helpers/outlook_app_remind5.ahk`
 * Set appointment reminder to 5 minutes
-`inc/helpers/outlook_app_remind10.ahk`
+`autohotkey/helpers/outlook_app_remind10.ahk`
 * Set appointment reminder to 10 minutes
-`inc/helpers/outlook_app_save_rtc.ahk`
+`autohotkey/helpers/outlook_app_save_rtc.ahk`
 * Set appointment to be saved in the "rtCamp" calendar
-`inc/helpers/outlook_app_save_wingman.ahk`
+`autohotkey/helpers/outlook_app_save_wingman.ahk`
 * Set appointment to be saved in the "WingMan WP" calendar
 
 # [WIP] vMix
-`inc/start_things/vmix.ahk`
+`autohotkey/start_things/vmix.ahk`
 1. Open vMix
 2. Wait for vMix to initiate
 3. Move vMix to second monitor
 
 ## [WIP] Windows - Manipulate Task Views
-`inc/start_things/win_desktops_close.ahk`
-`inc/start_things/win_desktops_open.ahk`
+`autohotkey/start_things/win_desktops_close.ahk`
+`autohotkey/start_things/win_desktops_open.ahk`
 1. Open/Close "ALL" desktop task views
 
 ## Window - View Window on All Desktops
-`inc/helpers/do_screen2_allmon.ahk`
-`inc/helpers/do_screen3_allmon.ahk`
+`autohotkey/helpers/do_screen2_allmon.ahk`
+`autohotkey/helpers/do_screen3_allmon.ahk`
 1. Make window presently in focus visible on all "task view" desktops.
 
 ## Window - Hide from Alt-Tab
-`inc/helpers/window_hide_alttab.ahk`
+`autohotkey/helpers/window_hide_alttab.ahk`
 1. Hide window presently in focus from appearing in Alt-Tab menu.
 
 ## Chrome - Control Xfinity Screen
-`inc/helpers/mute_xfinity.ahk`
-`inc/helpers/mute_xfinity_hi.ahk`
-`inc/helpers/mute_xfinity_low.ahk`
+`autohotkey/helpers/mute_xfinity.ahk`
+`autohotkey/helpers/mute_xfinity_hi.ahk`
+`autohotkey/helpers/mute_xfinity_low.ahk`
 1. Focus in Xfinity window
 2. Adjust volume control
 
 ## Chrome - Start Things
-`inc/start_things/chrome_all.ahk`
+`autohotkey/start_things/chrome_all.ahk`
 * Start all needed Chrome profiles
-`inc/start_things/chrome_all_move.ahk`
+`autohotkey/start_things/chrome_all_move.ahk`
 * Move chrome windows to respective Windows Task View Desktop Locations
-`inc/start_things/chrome_rtc.ahk`
+`autohotkey/start_things/chrome_rtc.ahk`
 * Start a window of my `Chrome > rtCamp` profile
-`inc/start_things/chrome_wing.ahk`
+`autohotkey/start_things/chrome_wing.ahk`
 * Start a window of my `Chrome > WingManWP` profile
-`inc/start_things/chrome_app_youtube.ahk`
+`autohotkey/start_things/chrome_app_youtube.ahk`
 * Start the Google Chrome App `YouTube`
-`inc/start_things/chrome_app_xfinity.ahk`
+`autohotkey/start_things/chrome_app_xfinity.ahk`
 * Start the Google Chrome App `Xfinity`
 
 # 📜 iOS Shortcuts
