@@ -8,6 +8,11 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 1. Depending on my "MASTER" calendar, then update the Slack workspaces for my Work (rtCamp) and WingManWP respectively.
 
 # 📜 AutoHotkey Scripts
+## [WIP] Select "Area of Life"
+`inc/helpers/select_gtd_area.ahk` 
+1. Create nested dropdown list window
+2. Populate these nested dropdown lists with GTD "Areas of Life" lists
+
 ## [WIP] Startup Sequence
 1. Start Outlook + position on screens
 2. Start vMix + position on screens
