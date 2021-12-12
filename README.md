@@ -3,6 +3,13 @@ Repository where I write down all the automations, scripts, shortcuts, and other
 
 Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 
+# Web Dev
+## TEST Gravity Form
+`web_dev/gravity_form_test.ahk`
+1. Grab form fields from spreadsheet
+2. Tab thru and fill-in all values into a browser view Gravity Form
+3. Rinse and repeat
+
 # 📜 Zapier
 ## [WIP] Slack Status - Auto Update
 1. Depending on my "MASTER" calendar, then update the Slack workspaces for my Work (rtCamp) and WingManWP respectively.
