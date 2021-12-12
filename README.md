@@ -26,6 +26,18 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## Outlook - Manipulate Appointment Saving
+`inc/helpers/outlook_app_remind0.ahk`
+* Set appointment reminder to 0 minutes
+`inc/helpers/outlook_app_remind5.ahk`
+* Set appointment reminder to 5 minutes
+`inc/helpers/outlook_app_remind10.ahk`
+* Set appointment reminder to 10 minutes
+`inc/helpers/outlook_app_save_rtc.ahk`
+* Set appointment to be saved in the "rtCamp" calendar
+`inc/helpers/outlook_app_save_wingman.ahk`
+* Set appointment to be saved in the "WingMan WP" calendar
+
 ## Window - View Window on All Desktops
 `inc/helpers/do_screen2_allmon.ahk`
 `inc/helpers/do_screen3_allmon.ahk`
