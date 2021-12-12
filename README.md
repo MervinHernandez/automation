@@ -26,6 +26,13 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 * Upon opening the "new appointment" window, there is a flyout menu (GUI) that is sticky with the window
 * This sticky menu offers "Personal / Work / Household / Community Projects" related shortcuts for appointment templates
 
+## Chrome - Control Xfinity Screen
+`inc/helpers/mute_xfinity.ahk`
+`inc/helpers/mute_xfinity_hi.ahk`
+`inc/helpers/mute_xfinity_low.ahk`
+1. Focus in Xfinity window
+2. Adjust volume control
+
 # 📜 iOS Shortcuts
 ## Start the Washer
 1. Ask how long the load will run for
