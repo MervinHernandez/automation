@@ -13,6 +13,10 @@ Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 1. Create nested dropdown list window
 2. Populate these nested dropdown lists with GTD "Areas of Life" lists
 
+## [WIP] FIND Latest Downloaded File
+`inc/helpers/latest_file.ahk`
+1. Get path for latest file in Downloads folder (C:\Users\mervi\Downloads)
+
 ## [WIP] Startup Sequence
 1. Start Outlook + position on screens
 2. Start vMix + position on screens
