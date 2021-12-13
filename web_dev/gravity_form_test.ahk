@@ -1,7 +1,7 @@
 ; Gravity Form - Fill In Test
 ; = = = = = = = = = =
 ; PREREQUISIT
-; 1. Spreadsheet (chrom window) open on the left side of the screen with
+; 1. Spreadsheet (chrome window) open on the left side of the screen with
 ;    - each COLUMN is a test form submission.
 ; 2. Browser window (Edge) open on the right side of the screen, with
 ;    - the cursor ready to populate the first form field.
@@ -27,12 +27,14 @@ Sleep, 171
             radio_entry()
             return
         }
+
     ; 3.2 Tab required ?
     IF Clipboard contains TAB
         {
             Send, {Tab}
             return
         }
+
     ; 3.3 Next Page / Enter
     IF Clipboard contains ENTER
         {
@@ -46,23 +48,40 @@ Sleep, 171
             return
         }
 }
+
+ExitApp
 ; = = = = = =
 ; FUNCTIONS
 ; = = = = = =
 drop_it() {
-    ; Paste Contents
-    Send, {Blind}{Ctrl Down}v{Ctrl Up}
+    StrValue := clipboard
+    IF StrLen(StrValue) = 1
+    {
+        ; if the clipboard only contains one character, then
+            Send, %clipboard%
+            Sleep, 250
+    }
+    else
+    {
+        ; Paste Contents
+            Send, {Blind}{Ctrl Down}v{Ctrl Up}
+            Sleep, 250
+    }
     ; Tab to next field
-    Send, {Tab}
+        Send, {Tab}
+        beep()
+        return
 }
 
 radio_entry() {
 ; Radio Button - Click Yes or No
-    IF Clipboard contains yes
+    IF Clipboard contains 1
     {
         ; Press first option
         Send, {Space}
+        Sleep, 250
         Send, {Tab}
+        Sleep, 250
     }
     else
     {
@@ -70,4 +89,10 @@ radio_entry() {
         Send, {Down}
         Send, {Tab}
     }
+}
+
+beep() {
+SoundBeep, 1750, 250
+Sleep, 250
+return
 }
