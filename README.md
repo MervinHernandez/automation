@@ -24,6 +24,10 @@ Webhook Events via Maker Key `dqAVO2Ni3N6WTTMcsp6A_M`
 2. Tab thru and fill-in all values into a browser view Gravity Form
 3. Rinse and repeat
 
+## Gravity Form Fields to Custom Post Type CPT Meta
+`web_dev/workflow_gf_to_cpt.ahk`
+1. With a spreadsheet source list of the `meta_key` values desired, this script helps populate these meta keys onto the respective "custom field" parameters in a given GF field.
+
 # 📜 Zapier
 ## [WIP] Slack Status - Auto Update
 1. Depending on my "MASTER" calendar, then update the Slack workspaces for my Work (rtCamp) and WingManWP respectively.
