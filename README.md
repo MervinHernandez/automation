@@ -73,6 +73,9 @@ To start my day.
 `workflows/outlook_appt_flyout.ahk`
 1. Generate a "sticky" flyout menu next to an appointment window
 2. Offer up shortcuts to naming contentions, details to be added, etc.
+## [WIP] Outlook - Select TimeZone
+`autohotkey/helpers/outlook_select_timezone.ahk`   
+Quickly select timezones, instead of having to view and scroll to a certain selection on a long dropdown list.
 
 ## Outlook - Start
 `autohotkey/start_things/outlook.ahk`
