@@ -1,6 +1,12 @@
 ; Workflow - Gravity Forms to CPT
 ; This script brings field data from a spreadsheet, to populate various
 ; fields in Gravity Forms to associate an input with a CPT meta.
+; = = =
+; PREREQUISITES
+; 1. Chrome (or spreadsheet) window with the meta_key name desired to be used in the Gravity Form Field assignment
+; 2. Chrome window open, with focus on the field name entry box, for a Post Field > "Custom Field" field
+;    ALSO, this field must have the "Custom Field Name" set to "New", and the "Create Content Template" item checked.
+; 3. These tabs must be side by side, visible to tab between them.
 
 
 ; 0. Clear all the things
@@ -24,7 +30,6 @@ beep()
 step4()
 beep()
 Sleep, 300
-MsgBox, Your Turn
 
 ; Step 5 - Note that this field is done
 step2()
@@ -97,7 +102,7 @@ Sleep, 200
 }
 
 ; Set the Custom Field Name to be "New"
-Send, {Right}
+;Send, {Right}
 Sleep, 200
 Send, {Tab}
 Sleep, 100
