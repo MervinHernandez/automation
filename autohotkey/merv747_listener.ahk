@@ -15,6 +15,10 @@
 ; Screen 2 - 1920 x 1080 @ 100% Windows Scaling
 ; Screen 3 - 1920 x 1080 @ 125% Windows Scaling
 
+; INCLUDES
+; Outlook flyout menu
+#Include D:\payloads_repos\automation\autohotkey\workflows\outlook_app_helper.ahk
+
 ; = = =
 ; F Keys - Mervin Edition
 
