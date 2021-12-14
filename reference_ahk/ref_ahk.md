@@ -21,6 +21,9 @@ Loop, %A_WinDir%\system32\*.*
 ## Sticky GUI buttons
 `sticky_gui_buttons.ahk`
 
+## Sticky GUI Toolbar
+`sticky_gui_toolbar.ahk`
+
 # AHK Reference
 ## File Locations
 `A_Script` = the file path location for this script
