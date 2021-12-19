@@ -3,6 +3,15 @@ Repository where I write down all the automations, scripts, shortcuts, and other
 
 Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 
+# Devices
+## Household - Kasa (TP Link)
+| Device Name | MAC Address |
+| --- | --- |
+| Kasa - Victor | CC:32:E5:22:FC:8C |
+| Kasa - Whiskey | D8:0D:17:46:E6:23 |
+| Kasa - Zulu | D8:0D:17:46:B5:74 |
+| Kasa - Alpha (PC’s) | 0C:80:63:0B:6C:79 |
+
 ## IFTT
 Webhook Events via Maker Key `dqAVO2Ni3N6WTTMcsp6A_M`
 
