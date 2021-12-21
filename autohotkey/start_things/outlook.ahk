@@ -42,14 +42,14 @@ if WinExist("Inbox - Me@mervinhernandez.com - Outlook") {
     Progress, 72
 
     ; 5. Open other two calendars
-    MouseClick, L, 1521, 1161
+    MouseClick, L, 1528, 913
     Sleep, 500
-    MouseClick, L, 1573, 1208
+    MouseClick, L, 1540, 950
     Sleep, 500
     Progress, 80
 
     ; 6. Click main calendar tab
-    MouseClick, L, 2118, 438
+    MouseClick, L, 2026, 269
     Progress, 90
 
     ; Put the mouse back
