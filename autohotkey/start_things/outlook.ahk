@@ -42,9 +42,9 @@ if WinExist("Inbox - Me@mervinhernandez.com - Outlook") {
     Progress, 72
 
     ; 5. Open other two calendars
-    MouseClick, L, 1528, 913
+    MouseClick, L, 1515, 1014
     Sleep, 500
-    MouseClick, L, 1540, 950
+    MouseClick, L, 1473,  1049
     Sleep, 500
     Progress, 80
 
