@@ -17,7 +17,7 @@
 
 ; INCLUDES
 ; Outlook flyout menu
-#Include D:\payloads_repos\automation\autohotkey\workflows\outlook_app_helper.ahk
+#Include D:\payload_repos\automation\autohotkey\workflows\outlook_app_helper.ahk
 
 ; = = =
 ; F Keys - Mervin Edition
