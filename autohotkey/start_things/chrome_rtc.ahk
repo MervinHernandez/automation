@@ -3,7 +3,7 @@ SetTitleMatchMode, 2
 CoordMode, Mouse, Screen
 
 ; Run the shortcut to the specific Chrome
-Run, "C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 2"
+Run, "C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 4"
 Sleep, 350
 
 ; Set variable with window title
