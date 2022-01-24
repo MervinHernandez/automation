@@ -10,7 +10,16 @@
 
 ### 2. Inventory
 1. Search for barcode on the internet
-   1. Method 1 - `curl https://www.barcodespider.com/071537001204 -o 071537001204.txt`. This will save the output of the query to a file
+   1. Query Data
+   ```
+   Method 1 - BarCode Spider   
+   via curl https://www.barcodespider.com/071537001204 -o 071537001204.txt
+   and save the output of the query to a file
+   
+   Method 2 - UPC Item DB 
+   via curl https://www.upcitemdb.com/upc/73577104174 -o 073577104174.txt   
+   and save the output of the query to a file
+   ```
    2. Save to a file
    3. Look for "associated with"
    4. Grab the contents of the "<h2>" following that text string
