@@ -5,27 +5,31 @@ CoordMode, Mouse, Screen
 MouseGetPos, x_start, y_start
 ;BlockInput, MouseMove ;block the user from moving the mouse during this operation
 
+; DEFINE where the mute button is on the second screen
+xfin_mute_x = 8136
+xfin_mute_y = 1554
+
 ;-- Click above the seek bar
-DllCall("SetCursorPos", "int", 9523, "int", 1605)
+DllCall("SetCursorPos", "int", xfin_mute_x, "int", xfin_mute_y-350)
 Sleep, 100
 MouseClick, L
-Sleep, 500
+Sleep, 200
 
 ;-- Click the volume level at 10%
-DllCall("SetCursorPos", "int", 9585, "int", 1811)
+DllCall("SetCursorPos", "int", xfin_mute_x+75, "int", xfin_mute_y)
 Sleep, 100
 MouseClick, L
-Sleep, 500
+Sleep, 200
 
 ;-- CLICK Center of Screen 2
-DllCall("SetCursorPos", "int", 8377, "int", 968)
+DllCall("SetCursorPos", "int", xfin_mute_x, "int", xfin_mute_y-350)
 Sleep, 100
 MouseClick, L
-Sleep, 500
+Sleep, 200
 
 ;-- PUT the Mouse Back on Screen 1
 ;BlockInput, Off ;and release the mouse from its bounds
 MouseMove, x_start, y_start
-Sleep, 600
+Sleep, 100
 
-Exit
+ExitApp
