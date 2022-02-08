@@ -1,0 +1,14 @@
+/* Chrome - rtCamp - PipeDrive */
+
+/* Deal View */
+.widget.revenue {
+    display:none !important;
+}
+/* -- highlight fields */
+div[data-field-key="8c0050a22062012c04c42ca80f7fb03ab5788859"],
+div[data-field-key="7565b919734ae2435dcf9c4b4bcde59b97a4790d"],
+div[data-field-key="3032df79bbe0a2983bfbedc2d3996791bb9cdf05"],
+div[data-field-key="e5817a1aacf84beeb4170030a5dafe9ca8eb2f96"],
+div[data-field-key="190a998716df50bc610fbe7b3406aa59792519dc"],
+div[data-field-key="3a28b67d54a247a1874d125084a04be69f612eeb"] {
+    background:#fffcdc}
