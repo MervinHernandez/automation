@@ -3,6 +3,12 @@ Repository where I write down all the automations, scripts, shortcuts, and other
 
 Below, I'm gonna write down stuff that is active, WIP, and desired scripts.
 
+# GTD Global Things
+## Areas of Life - List
+> 💡 See Adobe XD Files (Adobe Libraries > Mervin's Cloud Files > WingMan WP Diagrams)
+ 
+![](gtd-areas-2022-02-13.jpg)
+
 # Devices
 ## Household - Kasa (TP Link)
 | Device Name | MAC Address |
