@@ -17,9 +17,17 @@
 
 ; INCLUDES
 ; Outlook flyout menu
-#Include D:\payload_repos\automation\autohotkey\workflows\outlook_app_helper.ahk
+; #Include D:\payload_repos\automation\autohotkey\workflows\outlook_app_helper.ahk
 
 ; = = =
+
+; Clipboard - WATCH - Notion URL replace
+OnClipboardChange:
+    if (A_EventInfo = 1 && InStr(Clipboard, "https://www.notion.so/"))
+        ; Replace text string https with notion
+        Clipboard := StrReplace(Clipboard, "https", "notion", 1)
+    return
+
 ; F Keys - Mervin Edition
 
 ^!+1:: ; Ctrl + Alt + Shift + 1

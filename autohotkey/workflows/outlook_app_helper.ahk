@@ -45,10 +45,15 @@ Gui_Show(X, Y="") {
 	Return
 }
 
+; TODO: This field Window Reference is not working
+TimeZoneWin_x = 457
+TimeZoneWin_y = 436
+
 Btn:
 {
+CoordMode, Mouse, Window
 ; 1. Move mouse and click Start Time Zone
-    MouseMove, 846, 477, 2
+    MouseMove, %TimeZoneWin_x%, %TimeZoneWin_y%, 2
     Sleep, 200
     MouseClick, L
     Sleep, 50
@@ -68,8 +73,9 @@ return
 }
 Btn2:
 {
+CoordMode, Mouse, Window
 ; 1. Move mouse and click Start Time Zone
-    MouseMove, 846, 477, 2
+    MouseMove, %TimeZoneWin_x%, %TimeZoneWin_y%, 2
     Sleep, 200
     MouseClick, L
     Sleep, 50
