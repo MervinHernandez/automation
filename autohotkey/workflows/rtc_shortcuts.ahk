@@ -1,5 +1,5 @@
 ; GUI Window - rtC Desktop Shortcuts
-
+Msgbox, This is a WIP
 ; 1. CREATE GUI Elements
 Gui, Destroy
 Gui, Show, x1537 y562 h150 w270, rtCamp Shortcuts

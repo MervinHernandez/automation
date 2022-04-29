@@ -17,8 +17,11 @@
    and save the output of the query to a file
    
    Method 2 - UPC Item DB 
-   via curl https://www.upcitemdb.com/upc/73577104174 -o 073577104174.txt   
+   via curl https://www.upcitemdb.com/upc/77745291864 -o 77745291864.txt   
    and save the output of the query to a file
+   
+   Method 3 - UPC Index
+   via curl https://www.upcindex.com/77745291864 -o 77745291864.txt    
    ```
    2. Save to a file
    3. Look for "associated with"
