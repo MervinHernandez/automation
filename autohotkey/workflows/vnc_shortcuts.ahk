@@ -33,7 +33,7 @@ ExitApp
 btn1:
 {
 ; Run the VNC Link to Merv13
-Run, D:\payload_dropbox\Dropbox\MH Docs\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL Merv13.vnc
+Run, C:\Users\mervi\OneDrive - Mervin Enterprises\Documents\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL Merv13.vnc
 Sleep, 1000
 
 ; Select this window
@@ -53,7 +53,7 @@ ExitApp
 btn2:
 {
 ; Run the VNC Link to MervTAB
-Run, D:\payload_dropbox\Dropbox\MH Docs\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL MervTAB.vnc
+Run, C:\Users\mervi\OneDrive - Mervin Enterprises\Documents\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL MervTAB.vnc
 Sleep, 2000
 
 ; Select this window
@@ -74,7 +74,7 @@ ExitApp
 btn3:
 {
 ; Run the VNC Link to MervTAB
-Run, D:\payload_dropbox\Dropbox\MH Docs\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL MediaPC.vnc
+Run, C:\Users\mervi\OneDrive - Mervin Enterprises\Documents\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL MediaPC.vnc
 Sleep, 2000
 
 ; Select this window
