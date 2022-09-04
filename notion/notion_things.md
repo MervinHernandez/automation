@@ -7,7 +7,7 @@
    `if(empty(dateBetween(end(prop("Date Range")), now(), "days")), "No Due Date Set"...`
 3. Determine if the **due date has passed**   
    `if(dateBetween(end(prop("Date Range")), now(), "days") < 0, "OVERDUE", ...`
-4. Display the calculated number of days between `today` and `the due date`.
+4. Display the calculated number of days between `today` and `the due date`.   
    `concat("Due in " + format(dateBetween(end(prop("Date Range")), now(), "days")) + " days")`
 
 ```text
