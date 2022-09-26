@@ -8,22 +8,17 @@
 
 CoordMode Mouse
 CoordMode Pixel
-
-F1::
 	PixelSearch x, y, 0, 0, A_ScreenWidth, A_ScreenHeight, 0x281D31, 0, Fast RGB
 	if (ErrorLevel = 0)
 	{
 		MouseMove x, y
-		MsgBox Found the color
+		Sleep, 10
 		MouseMove -250, 0, , R
-		;Click
 	}
 	else if (ErrorLevel = 1)
 		MsgBox it was not found,
 	else if (ErrorLevel = 2)
 		MsgBox there was a problem that prevented the command from conducting the search.
-Return
-
 ExitApp
 
 ; ✅ This sort of works
