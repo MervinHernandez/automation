@@ -18,6 +18,9 @@ Sleep, 100
 }
 
 Loop, 6 {
+Sleep, 200
+Send, {Blind}{LWin Down}{Tab}{LWin Up}
+Sleep, 200
 Send, {Blind}{Alt Down}{F4}{Alt Up}
 Sleep, 100
 }
