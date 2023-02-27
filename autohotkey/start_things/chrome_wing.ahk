@@ -11,7 +11,7 @@ WinGetActiveTitle, Title
 this_window = %Title%
 
 ; Move Window to Screen 1
-WinMove, %this_window%,, 653, 250, 2567, 1617
+WinMove, %this_window%,, 336, 207, 1920, 1080
 Sleep, 500
 
 ; Done
