@@ -5,7 +5,7 @@ Gui, Destroy
 Gui, Show, x1537 y562 h313 w270, Remote PC's
 Gui, Add, Button, x22 y59 w220 h30 gbtn1, Merv13 PC
 Gui, Add, Button, x22 y99 w220 h30 gbtn2, Tablet Laptop
-Gui, Add, Button, x22 y139 w220 h30 gbtn3, Media PC
+Gui, Add, Button, x22 y139 w220 h30 gbtn3, PC 2303
 Gui, Add, Button, x22 y259 w220 h30 gbtn4, LOCAL MacOne
 Gui, Font, s14, Verdana
 Gui, Add, Text, x22 y19 w220 h30 , LOCAL Computers
@@ -74,7 +74,7 @@ ExitApp
 btn3:
 {
 ; Run Button 3
-Run, C:\Users\mervi\OneDrive - Mervin Enterprises\Documents\UTIL Shortcuts\TASKBAR Shortcuts\LOCAL MediaPC.vnc
+Run, "C:\Program Files\RustDesk\rustdesk.exe" --connect 1743355273
 Sleep, 2000
 
 ; Select this window
