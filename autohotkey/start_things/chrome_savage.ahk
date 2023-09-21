@@ -4,7 +4,7 @@ CoordMode, Mouse, Screen
 
 ; Run the shortcut to the specific Chrome
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe" --profile-directory="Profile 10"
-Sleep, 350
+Sleep, 950
 
 ; Set variable with window title
 WinGetActiveTitle, Title
