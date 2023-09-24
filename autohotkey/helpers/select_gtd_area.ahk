@@ -1,13 +1,29 @@
 ; SELECT Area of Life
 ; - from a list of GTD areas in nested dropdown lists
 
-Gui, Add, Text, x12 y9 w160 h20 , GTD Area of Life Selector
-Gui, Add, DropDownList, x12 y39 w160, Personal|Work
-Gui, Add, DropDownList, x12 y69 w160, DropDownList
-Gui, Add, DropDownList, x12 y99 w160, DropDownList
-; Generated using SmartGUI Creator 4.0
-Gui, Show, x239 y152 h141 w300, New GUI Window
-Return
+; Define the GUI for the color selection window
+Gui, Add, Radio, vChoice1, Blue
+Gui, Add, Radio, vChoice2, Green
+Gui, Add, Radio, vChoice3, Red
+Gui, Add, Button, Default gNextButton, Next
+Gui, Show, w300 h150, Color Selection
 
-GuiClose:
-ExitApp
+return
+
+NextButton:
+Gui, Submit, NoHide
+Gui, Destroy
+
+; Determine the selected choice
+if (Choice1)
+    SelectedColor := "Blue"
+else if (Choice2)
+    SelectedColor := "Green"
+else if (Choice3)
+    SelectedColor := "Red"
+
+; Create a new GUI window with the selected color title
+Gui, Add, Text, vColorTitle, You selected %SelectedColor%
+Gui, Show, w300 h150, %SelectedColor% Window
+
+return
