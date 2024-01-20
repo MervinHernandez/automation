@@ -1,4 +1,4 @@
-; Outlook - Appointment - 5 minutes
+; Outlook - Appointment - X minutes
 WinGetTitle, Title, A
 if (!!InStr(Title, "- Appointment")) {
     ; SET Reminder to 5 min
