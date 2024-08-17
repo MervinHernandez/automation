@@ -1,8 +1,8 @@
 ; SLACK - Set Status
 #Persistent
-; a) Get the active window's process name
+; 1) Get the active window's process name
 WinGet, activeProcessName, ProcessName, A
-; b) Do something depending on whether Slack is in focus or not
+; 2) Do something depending on whether Slack is in focus or not
 if (activeProcessName = "slack.exe") {
     ; TRUE Slack is in focus
     step_1()
@@ -18,8 +18,7 @@ if (activeProcessName = "slack.exe") {
     step_1()
 }
 
-
-
+; The End
 ExitApp
 
 /**
@@ -30,7 +29,7 @@ step_1()
 {
     ; 1 Call the Set Status Window
     Send, {Blind}{Ctrl Down}{Shift Down}y{Shift Up}{Ctrl Up}
-    Sleep, 300
+    Sleep, 400
     step_2()
     step_3()
     return
@@ -39,6 +38,7 @@ step_2()
 {
     ; 2 TYPE The Status text
     Send weekend mode
+    Sleep, 100
     return
 }
 step_3()
@@ -47,9 +47,9 @@ step_3()
     Send, {Blind}{Shift Down}{Tab}{Shift Up}
     Sleep, 25
     Send, {Enter}
-    Sleep, 25
+    Sleep, 50
     Send, :double_vertical_bar
-    Sleep, 25
+    Sleep, 400
     Send, {Enter}
     Sleep, 25
     ; Press Tab 7 times
@@ -57,5 +57,6 @@ step_3()
     Send {Blind}{Tab}
     Sleep, 10
     }
+    ; Note - DID NOT Define "Press Enter" in this script.
     return
 }
