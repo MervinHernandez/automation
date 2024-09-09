@@ -30,6 +30,16 @@ Sleep, 150
 Send {Down}{Enter}
 Sleep, 750
 
+; Go to Camera Settings
+method_1_tabs()
+
+Msgbox Done
+
+; Done
+ExitApp
+
+; Functions
+method_1_tabs() {
 ; Tab to Settings
 Loop 3 {
     Send {Blind}{Tab}
@@ -53,8 +63,4 @@ Loop 21 {
     Sleep, 100
 }
 Sleep, 150
-
-Msgbox Done
-
-; Done
-ExitApp
+}
