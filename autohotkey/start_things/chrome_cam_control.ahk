@@ -31,7 +31,8 @@ Send {Down}{Enter}
 Sleep, 750
 
 ; Go to Camera Settings
-method_1_tabs()
+;method_1_tabs()
+method_2_clicks()
 
 Msgbox Done
 
@@ -63,4 +64,20 @@ Loop 21 {
     Sleep, 100
 }
 Sleep, 150
+}
+method_2_clicks() {
+SetTitleMatchMode, 2
+CoordMode, Mouse, Screen
+Sleep, 500
+MouseMove, 2704, 535
+Sleep, 1000
+MouseClick, L, 2704, 535
+Sleep, 140
+Sleep, 468
+MouseClick, L, 2607, 822
+Sleep, 609
+MouseClick, L, 2326, 1153
+Sleep, 200
+MouseClick, L, 2326, 1153
+Sleep, 1000
 }
