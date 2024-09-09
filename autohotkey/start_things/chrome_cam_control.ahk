@@ -45,8 +45,14 @@ Loop 6 {
 }
 Sleep, 150
 Send {Enter}
+Sleep, 100
 
 ; Select the html element with the id "gain" on the screen which is already in focus
+Loop 21 {
+    Send {Blind}{Tab}
+    Sleep, 100
+}
+Sleep, 150
 
 Msgbox Done
 
